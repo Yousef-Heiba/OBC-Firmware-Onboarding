@@ -1,6 +1,3 @@
-# OBC Firmware Onboarding Challenge
-
-Welcome to Orbital's OBC Firmware Onboarding Challenge! Please visit [this Notion doc](https://www.notion.so/uworbital/Firmware-Onboarding-Challenge-Updated-24340dfccb0547a5a7246ce6d7207c28) for the challenge instructions. Remember to follow our style guide which is written below.
 
 ## Style Guide
 
@@ -52,7 +49,7 @@ We use `#pragma once` instead of include guards.
     3.  Standard library imports (e.g. `#include <stdint.h>`)
 
 ### ****General Rules****
-Some of these rules don't apply in certain cases. Use your better judgement. To learn more about these rules, research NASA's Power of 10.
+Some of these rules don't apply in certain cases. To learn more about these rules, research NASA's Power of 10.
 
 1. Avoid complex flow constructs, such as [goto](https://en.wikipedia.org/wiki/Goto) and [recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science)).
 2. All loops must have fixed bounds. This prevents runaway code.
